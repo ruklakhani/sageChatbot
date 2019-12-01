@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title>SAGE</title>
+    </head>
+    <body> 
+        Chatbot Form
+        <!-- I want to display each question one at a time, to look like a chatbot -->
+        <form action='/chatbot_form' method='GET'>
+            <p>
+                <label for='q1'>How are you feeling today?</label>
+                <input type="button" name="action" value="Great" />
+                <input type="button" name="action" value="Good" />
+                <input type="button" name="action" value="Ok" />
+                <input type="button" name="action" value="Meh" />
+                <input type="button" name="action" value="Awful" />
+            </p>
+            <p>
+                <label for='q2'>Why? (Choose descriptors)</label>
+                <input type="button" name="action" value="School" />
+                <input type="button" name="action" value="Work" />
+                <input type="button" name="action" value="Family" />
+                <input type="button" name="action" value="Friends" />
+                <input type="button" name="action" value="Health" />
+                <input type="button" name="action" value="Other" />
+            </p>
+            <p> 
+                <label for='q3'>Explain further?</label>
+                <textarea name="Text1" cols="40" rows="5"></textarea>
+                <br>
+            </p>
+        </form>
+    </body>
+</html>
